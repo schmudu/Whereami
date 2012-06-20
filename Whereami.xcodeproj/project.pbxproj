@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD618C4E158FD05A00A0E085 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD618C4D158FD05A00A0E085 /* UIKit.framework */; };
+		CD618C50158FD05A00A0E085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD618C4F158FD05A00A0E085 /* Foundation.framework */; };
+		CD618C52158FD05A00A0E085 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD618C51158FD05A00A0E085 /* CoreGraphics.framework */; };
+		CD618C58158FD05A00A0E085 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD618C56158FD05A00A0E085 /* InfoPlist.strings */; };
+		CD618C5A158FD05A00A0E085 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD618C59158FD05A00A0E085 /* main.m */; };
+		CD618C5E158FD05A00A0E085 /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD618C5D158FD05A00A0E085 /* QuizAppDelegate.m */; };
+		CD618C61158FD05A00A0E085 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD618C60158FD05A00A0E085 /* QuizViewController.m */; };
+		CD618C64158FD05A00A0E085 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD618C62158FD05A00A0E085 /* QuizViewController.xib */; };
+		CD618C6B158FD0AA00A0E085 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD618C6A158FD0AA00A0E085 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD618C49158FD05A00A0E085 /* Whereami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD618C4D158FD05A00A0E085 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD618C4F158FD05A00A0E085 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD618C51158FD05A00A0E085 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD618C55158FD05A00A0E085 /* Whereami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
+		CD618C57158FD05A00A0E085 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD618C59158FD05A00A0E085 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD618C5B158FD05A00A0E085 /* Whereami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
+		CD618C5C158FD05A00A0E085 /* QuizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizAppDelegate.h; sourceTree = "<group>"; };
+		CD618C5D158FD05A00A0E085 /* QuizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppDelegate.m; sourceTree = "<group>"; };
+		CD618C5F158FD05A00A0E085 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		CD618C60158FD05A00A0E085 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		CD618C63158FD05A00A0E085 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
+		CD618C6A158FD0AA00A0E085 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD618C46158FD05A00A0E085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD618C6B158FD0AA00A0E085 /* CoreLocation.framework in Frameworks */,
+				CD618C4E158FD05A00A0E085 /* UIKit.framework in Frameworks */,
+				CD618C50158FD05A00A0E085 /* Foundation.framework in Frameworks */,
+				CD618C52158FD05A00A0E085 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD618C3E158FD05A00A0E085 = {
+			isa = PBXGroup;
+			children = (
+				CD618C6A158FD0AA00A0E085 /* CoreLocation.framework */,
+				CD618C53158FD05A00A0E085 /* Whereami */,
+				CD618C4C158FD05A00A0E085 /* Frameworks */,
+				CD618C4A158FD05A00A0E085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD618C4A158FD05A00A0E085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD618C49158FD05A00A0E085 /* Whereami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD618C4C158FD05A00A0E085 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD618C4D158FD05A00A0E085 /* UIKit.framework */,
+				CD618C4F158FD05A00A0E085 /* Foundation.framework */,
+				CD618C51158FD05A00A0E085 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD618C53158FD05A00A0E085 /* Whereami */ = {
+			isa = PBXGroup;
+			children = (
+				CD618C5C158FD05A00A0E085 /* QuizAppDelegate.h */,
+				CD618C5D158FD05A00A0E085 /* QuizAppDelegate.m */,
+				CD618C5F158FD05A00A0E085 /* QuizViewController.h */,
+				CD618C60158FD05A00A0E085 /* QuizViewController.m */,
+				CD618C62158FD05A00A0E085 /* QuizViewController.xib */,
+				CD618C54158FD05A00A0E085 /* Supporting Files */,
+			);
+			path = Whereami;
+			sourceTree = "<group>";
+		};
+		CD618C54158FD05A00A0E085 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD618C55158FD05A00A0E085 /* Whereami-Info.plist */,
+				CD618C56158FD05A00A0E085 /* InfoPlist.strings */,
+				CD618C59158FD05A00A0E085 /* main.m */,
+				CD618C5B158FD05A00A0E085 /* Whereami-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD618C48158FD05A00A0E085 /* Whereami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD618C67158FD05A00A0E085 /* Build configuration list for PBXNativeTarget "Whereami" */;
+			buildPhases = (
+				CD618C45158FD05A00A0E085 /* Sources */,
+				CD618C46158FD05A00A0E085 /* Frameworks */,
+				CD618C47158FD05A00A0E085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whereami;
+			productName = Whereami;
+			productReference = CD618C49158FD05A00A0E085 /* Whereami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD618C40158FD05A00A0E085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Quiz;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Patrick Lee";
+			};
+			buildConfigurationList = CD618C43158FD05A00A0E085 /* Build configuration list for PBXProject "Whereami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD618C3E158FD05A00A0E085;
+			productRefGroup = CD618C4A158FD05A00A0E085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD618C48158FD05A00A0E085 /* Whereami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD618C47158FD05A00A0E085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD618C58158FD05A00A0E085 /* InfoPlist.strings in Resources */,
+				CD618C64158FD05A00A0E085 /* QuizViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD618C45158FD05A00A0E085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD618C5A158FD05A00A0E085 /* main.m in Sources */,
+				CD618C5E158FD05A00A0E085 /* QuizAppDelegate.m in Sources */,
+				CD618C61158FD05A00A0E085 /* QuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD618C56158FD05A00A0E085 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD618C57158FD05A00A0E085 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD618C62158FD05A00A0E085 /* QuizViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD618C63158FD05A00A0E085 /* en */,
+			);
+			name = QuizViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD618C65158FD05A00A0E085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD618C66158FD05A00A0E085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD618C68158FD05A00A0E085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami/Whereami-Prefix.pch";
+				INFOPLIST_FILE = "Whereami/Whereami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD618C69158FD05A00A0E085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami/Whereami-Prefix.pch";
+				INFOPLIST_FILE = "Whereami/Whereami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD618C43158FD05A00A0E085 /* Build configuration list for PBXProject "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD618C65158FD05A00A0E085 /* Debug */,
+				CD618C66158FD05A00A0E085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD618C67158FD05A00A0E085 /* Build configuration list for PBXNativeTarget "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD618C68158FD05A00A0E085 /* Debug */,
+				CD618C69158FD05A00A0E085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD618C40158FD05A00A0E085 /* Project object */;
+}
